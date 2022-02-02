@@ -1,0 +1,130 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Hangul";
+    src: url('fonts/hangul_web/vtf_hngl-webfont.eot');
+    src: url('vtf_hngl-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hangul_web/vtf_hngl-webfont.woff') format('woff'),
+        url('fonts/hangul_web/vtf_hngl-webfont.ttf') format('truetype'),
+        url('fonts/hangul_web/vtf_hngl-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ginto";
+    src: url('fonts/ginto/GintoNormal-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ginto_bold";
+    src: url('fonts/ginto/GintoNormal-Bold.woff') format('woff');
+    font-weight: black;
+    font-style: black;
+}
+
+/* media queries */
+
+@media (max-width: 1360px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+    padding: 10px 10px;
+  }
+  img {
+  width: 50px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    padding: 10px 10px;
+
+  }
+  h1 {
+    font-size: 3em;
+  }
+  img {
+  width: 50px;
+  }
+}
+
+/* STYLE */
+
+body {
+  background-image: url(images/4MQQ.gif);
+}
+.container {
+  color: black;
+  line-height: 25px;
+  padding: 20px 20px;
+  margin: 30px auto;
+  width: 500px;
+  background-color:  #F4F7F6;
+  border-radius: 50px;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  color:#27369D;
+  font-family: hangul ;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+h2 {
+  color:black;
+  font-family: ginto_bold;
+  font-style: oblique;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+p {
+  font-family: ginto;
+  text-align: justify;
+}
+
+a {
+  font-family: hangul;
+  font-weight: 900;
+  font-size: 18px;
+  color:black;
+  text-decoration: none;
+  background-color:darkgray;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+a:hover {
+  color: #27369D;
+  background-color: #F4F7F6;
+}
+
+img {
+  width: 100px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+  text-align: left;
+}
